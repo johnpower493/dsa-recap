@@ -101,6 +101,50 @@ python two_pointers/two_pointers.py
 python two_pointers/two_pointers_exercise.py
 ```
 
+### 3. Sliding Window Technique
+
+**Location:** `sliding_window/`
+
+The sliding window technique maintains a moving window over an array/string to satisfy constraints efficiently.
+
+**Key Patterns:**
+- **Fixed-size window:** e.g., max sum/average of length k
+- **Variable-size window:** e.g., smallest window with sum >= target
+- **Frequency window:** e.g., anagrams, min window substring
+
+**Run examples:**
+```bash
+python sliding_window/sliding_window.py
+```
+
+**Practice Exercises:**
+```bash
+python sliding_window/sliding_window_exercise.py
+```
+
+### 4. Hash Maps (Dictionaries)
+
+**Location:** `hash_maps/`
+
+Hash maps (Python `dict`) provide average O(1) lookup/insert and power many patterns: counting, grouping, and prefix sums.
+
+**Key Implementations:**
+- Two Sum (unsorted)
+- Frequency counting
+- Group Anagrams
+- Longest Consecutive Sequence
+- Subarray Sum Equals K (prefix sums)
+
+**Run examples:**
+```bash
+python hash_maps/hash_maps.py
+```
+
+**Practice Exercises:**
+```bash
+python hash_maps/hash_maps_exercise.py
+```
+
 ## Practice Exercises
 
 Each module includes an exercise file with problems ranging from Easy to Hard difficulty:
@@ -117,9 +161,11 @@ Solutions are included but commented out - try solving problems on your own firs
 Recommended order to study these modules:
 
 1. **Start with:** Binary Search (understand divide and conquer)
-2. **Then:** Two-Pointers (build on binary search concepts)
-3. **Next:** Practice with exercises in both modules
-4. **Advanced:** Combine techniques (e.g., sorting + two-pointers)
+2. **Then:** Two-Pointers (build intuition for linear scans)
+3. **Next:** Sliding Window (two-pointers + constraints)
+4. **Then:** Hash Maps (counting, grouping, prefix sums)
+5. **Practice:** Exercises in each module
+6. **Advanced:** Combine techniques (e.g., sliding window + hash map, sort + two-pointers)
 
 ## Common Interview Topics
 
@@ -159,6 +205,8 @@ These modules cover frequently asked interview topics:
 |--------|-------------|---------------|
 | Binary Search | O(log n) | O(1) |
 | Two-Pointers | O(n) | O(1) |
+| Sliding Window | O(n) | O(1) to O(distinct) |
+| Hash Maps | O(n) | O(n) |
 
 ## Testing
 
