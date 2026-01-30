@@ -145,6 +145,54 @@ python hash_maps/hash_maps.py
 python hash_maps/hash_maps_exercise.py
 ```
 
+### 5. Stacks (incl. Monotonic Stack)
+
+**Location:** `stacks/`
+
+Stacks power bracket validation, min-stack design, expression evaluation, and monotonic stack problems.
+
+**Run examples:**
+```bash
+python stacks/stacks.py
+```
+
+**Practice Exercises:**
+```bash
+python stacks/stacks_exercise.py
+```
+
+### 6. Linked Lists
+
+**Location:** `linked_lists/`
+
+Classic in-place pointer manipulation problems.
+
+**Run examples:**
+```bash
+python linked_lists/linked_lists.py
+```
+
+**Practice Exercises:**
+```bash
+python linked_lists/linked_lists_exercise.py
+```
+
+### 7. Trees (Binary Trees / BST)
+
+**Location:** `trees/`
+
+Tree traversals, BFS/DFS patterns, depth, and BST validation.
+
+**Run examples:**
+```bash
+python trees/trees.py
+```
+
+**Practice Exercises:**
+```bash
+python trees/trees_exercise.py
+```
+
 ## Practice Exercises
 
 Each module includes an exercise file with problems ranging from Easy to Hard difficulty:
@@ -164,8 +212,11 @@ Recommended order to study these modules:
 2. **Then:** Two-Pointers (build intuition for linear scans)
 3. **Next:** Sliding Window (two-pointers + constraints)
 4. **Then:** Hash Maps (counting, grouping, prefix sums)
-5. **Practice:** Exercises in each module
-6. **Advanced:** Combine techniques (e.g., sliding window + hash map, sort + two-pointers)
+5. **Next:** Stacks (valid parentheses, monotonic stack)
+6. **Then:** Linked Lists (pointer manipulation)
+7. **Then:** Trees (DFS/BFS patterns)
+8. **Practice:** Exercises in each module
+9. **Advanced:** Combine techniques (e.g., sliding window + hash map)
 
 ## Common Interview Topics
 
@@ -207,6 +258,9 @@ These modules cover frequently asked interview topics:
 | Two-Pointers | O(n) | O(1) |
 | Sliding Window | O(n) | O(1) to O(distinct) |
 | Hash Maps | O(n) | O(n) |
+| Stacks | O(n) | O(n) |
+| Linked Lists | O(n) | O(1) |
+| Trees | O(n) | O(h) to O(n) |
 
 ## Testing
 
