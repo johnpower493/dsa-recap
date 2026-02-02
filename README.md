@@ -1,5 +1,12 @@
 # DSA Recap
 
+## SQL / Database Essentials
+A new `sql/` folder contains Postgres-flavored worked examples for SQL and database essentials often used in data engineering (schema + seed data, joins, window functions, ETL/upserts, indexing, transactions, and data quality checks).
+
+## Data Engineering Patterns
+The `de_patterns/` folder contains exercises for common data engineering patterns using SQL + Python (incremental loads, dedup/idempotency, SCD Type 2, and data quality checks).
+
+
 A comprehensive collection of Data Structures and Algorithms implementations with detailed explanations, examples, and practice exercises.
 
 ## Overview
