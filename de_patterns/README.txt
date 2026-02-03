@@ -11,6 +11,9 @@ Recommended order:
   6) 06_partitioning_strategy_exercise.py
   7) 07_backfills_late_data_exercise.py
   8) 08_orchestration_retries_exercise.py
+  9) 09_schema_evolution_backcompat_exercise.py
+  10) 10_exactly_once_outbox_exercise.py
+  11) 11_dedup_watermark_ts_seq_exercise.py
 
 Notes:
 - The SQL exercises assume the demo schema in sql/00_setup_schema_and_seed.sql (Postgres).

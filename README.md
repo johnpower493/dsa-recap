@@ -6,6 +6,9 @@ A new `sql/` folder contains Postgres-flavored worked examples for SQL and datab
 ## Data Engineering Patterns
 The `de_patterns/` folder contains exercises for common data engineering patterns using SQL + Python (incremental loads, dedup/idempotency, SCD Type 2, and data quality checks).
 
+## Databricks (Data Engineering)
+The `databricks/` folder contains Databricks-focused exercises (Spark DataFrames, Delta Lake, Medallion architecture, streaming, optimization, and job orchestration).
+
 
 A comprehensive collection of Data Structures and Algorithms implementations with detailed explanations, examples, and practice exercises.
 
