@@ -1,0 +1,21 @@
+Mini Project Runbook (quick steps)
+
+A) File-path (non-Unity Catalog) lab
+1) Run: mini_project/00_setup_and_generate_landing_data.py
+2) Run: mini_project/01_autoloader_to_bronze.py
+3) Optional non-DLT path:
+   - Run: mini_project/03_job_orchestration.py to build silver/gold for a rolling window.
+
+B) DLT path
+1) Run steps A1 and A2 to create the bronze Delta path.
+2) Create a DLT pipeline:
+   - Source: mini_project/02_dlt_pipeline_silver_gold.py
+   - Config:
+       mini_project.bronze_path = <your bronze_path from step A2>
+3) Start the pipeline and inspect:
+   - bronze_events, silver_events, gold_daily_revenue
+   - Expectation results (the bad row should be dropped)
+
+C) Job retries
+- Run mini_project/03_job_orchestration.py with widget fail=true to simulate a failure.
+- Re-run with fail=false; outputs should be correct (idempotent overwrite pattern).

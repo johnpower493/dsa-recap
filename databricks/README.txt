@@ -35,5 +35,9 @@ Prereqs
 - A Databricks workspace with a cluster (DBR) and permissions to create tables.
 - Unity Catalog requires a UC-enabled workspace/cluster and appropriate privileges.
 
+Mini-project (end-to-end)
+- See `databricks/mini_project/README.txt` and `databricks/mini_project/04_runbook_steps.txt`.
+- Flow: landing JSON -> Auto Loader bronze -> DLT silver/gold expectations -> job-style rebuild.
+
 Tip
 - Search for "TODO" in each notebook and fill in the code.
