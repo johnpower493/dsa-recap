@@ -1,0 +1,25 @@
+-- Observability Exercises (SQL Patterns)
+
+-- 1) Freshness Check (example pattern)
+-- Compare last_loaded_at vs expected schedule
+-- select
+--   table_name,
+--   max(loaded_at) as last_loaded_at,
+--   case when max(loaded_at) < dateadd(hour, -2, current_timestamp())
+--        then 'STALE' else 'FRESH' end as freshness_status
+-- from analytics.load_audit
+-- group by table_name;
+
+-- 2) Volume Anomaly (row count variance)
+-- Use a 7-day rolling average and flag deviations
+-- with daily_counts as (
+--   select load_date, count(*) as row_count
+--   from analytics.fact_orders
+--   group by load_date
+-- )
+-- select load_date,
+--        row_count,
+--        avg(row_count) over (order by load_date rows between 7 preceding and 1 preceding) as rolling_avg,
+--        case when row_count < 0.7 * rolling_avg or row_count > 1.3 * rolling_avg
+--             then 'ANOMALY' else 'OK' end as status
+-- from daily_counts;
