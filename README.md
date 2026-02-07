@@ -206,6 +206,70 @@ python trees/trees.py
 python trees/trees_exercise.py
 ```
 
+### 8. Heaps / Priority Queue
+
+**Location:** `heaps/`
+
+Heap-based patterns for top-k, k-th largest, and streaming median problems.
+
+**Run examples:**
+```bash
+python heaps/heaps.py
+```
+
+**Practice Exercises:**
+```bash
+python heaps/heaps_exercise.py
+```
+
+### 9. Graphs
+
+**Location:** `graphs/`
+
+DFS/BFS traversals, course scheduling (topological sort), islands, and reachability.
+
+**Run examples:**
+```bash
+python graphs/graphs.py
+```
+
+**Practice Exercises:**
+```bash
+python graphs/graphs_exercise.py
+```
+
+### 10. Backtracking
+
+**Location:** `backtracking/`
+
+Subsets, permutations, combination sum, and word search patterns.
+
+**Run examples:**
+```bash
+python backtracking/backtracking.py
+```
+
+**Practice Exercises:**
+```bash
+python backtracking/backtracking_exercise.py
+```
+
+### 11. Dynamic Programming
+
+**Location:** `dynamic_programming/`
+
+Climbing stairs, house robber, coin change, LIS, and LCS patterns.
+
+**Run examples:**
+```bash
+python dynamic_programming/dynamic_programming.py
+```
+
+**Practice Exercises:**
+```bash
+python dynamic_programming/dynamic_programming_exercise.py
+```
+
 ## Practice Exercises
 
 Each module includes an exercise file with problems ranging from Easy to Hard difficulty:
@@ -228,8 +292,12 @@ Recommended order to study these modules:
 5. **Next:** Stacks (valid parentheses, monotonic stack)
 6. **Then:** Linked Lists (pointer manipulation)
 7. **Then:** Trees (DFS/BFS patterns)
-8. **Practice:** Exercises in each module
-9. **Advanced:** Combine techniques (e.g., sliding window + hash map)
+8. **Then:** Heaps (top-k, streaming medians)
+9. **Then:** Graphs (BFS/DFS, topological sort)
+10. **Then:** Backtracking (combinatorial search)
+11. **Then:** Dynamic Programming (state transition thinking)
+12. **Practice:** Exercises in each module
+13. **Advanced:** Combine techniques (e.g., sliding window + hash map)
 
 ## Common Interview Topics
 
@@ -248,6 +316,31 @@ These modules cover frequently asked interview topics:
 - Container With Most Water
 - Longest Substring Without Repeating Characters
 - Valid Palindrome variants
+
+### Heaps Interview Problems
+- Kth Largest Element
+- Top K Frequent Elements
+- K Closest Points
+- Find Median from Data Stream
+
+### Graphs Interview Problems
+- Number of Islands
+- Course Schedule
+- Pacific Atlantic Water Flow
+- Graph Valid Tree
+
+### Backtracking Interview Problems
+- Subsets / Subsets II
+- Combination Sum / Combination Sum II
+- Permutations
+- Word Search
+
+### Dynamic Programming Interview Problems
+- Climbing Stairs
+- House Robber
+- Coin Change
+- Longest Increasing Subsequence
+- Longest Common Subsequence
 
 ## Key Concepts to Master
 
@@ -274,6 +367,10 @@ These modules cover frequently asked interview topics:
 | Stacks | O(n) | O(n) |
 | Linked Lists | O(n) | O(1) |
 | Trees | O(n) | O(h) to O(n) |
+| Heaps | O(n log k) | O(k) |
+| Graphs | O(V + E) | O(V + E) |
+| Backtracking | O(b^d) | O(d) + output |
+| Dynamic Programming | O(n) to O(n*m) | O(n) to O(n*m) |
 
 ## Testing
 
