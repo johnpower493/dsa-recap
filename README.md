@@ -270,6 +270,185 @@ python dynamic_programming/dynamic_programming.py
 python dynamic_programming/dynamic_programming_exercise.py
 ```
 
+### 12. Greedy Algorithms
+
+**Location:** `greedy/`
+
+Greedy algorithms make locally optimal choices at each step to find a global optimum.
+
+**Key Implementations:**
+- Maximum Subarray (Kadane's Algorithm)
+- Jump Game / Jump Game II
+- Gas Station
+- Task Scheduler
+- Partition Labels
+- And more!
+
+**Time Complexity:** O(n) to O(n log k)  
+**Space Complexity:** O(1) to O(k)
+
+**Practice Exercises:**
+```bash
+python greedy/greedy_exercise.py
+```
+
+### 13. Bit Manipulation
+
+**Location:** `bit_manipulation/`
+
+Bit manipulation techniques for low-level optimizations and specific algorithmic problems.
+
+**Key Implementations:**
+- Single Number (XOR operations)
+- Number of 1 Bits (Hamming weight)
+- Power of Two
+- Reverse Bits
+- Maximum XOR of Two Numbers
+- And more!
+
+**Time Complexity:** O(1) to O(n log k)  
+**Space Complexity:** O(1) to O(k)
+
+**Practice Exercises:**
+```bash
+python bit_manipulation/bit_manipulation_exercise.py
+```
+
+### 14. Divide and Conquer
+
+**Location:** `divide_conquer/`
+
+Divide and conquer recursively breaks problems into smaller subproblems.
+
+**Key Implementations:**
+- Power Function (fast exponentiation)
+- Merge Sort
+- Quickselect (Kth Largest)
+- Search in Rotated Sorted Array
+- Median of Two Sorted Arrays
+- And more!
+
+**Time Complexity:** O(log n) to O(n log n)  
+**Space Complexity:** O(1) to O(n)
+
+**Practice Exercises:**
+```bash
+python divide_conquer/divide_conquer_exercise.py
+```
+
+### 15. Sorting Algorithms
+
+**Location:** `sorting/`
+
+Classic and advanced sorting algorithms.
+
+**Key Implementations:**
+- Bubble Sort / Selection Sort / Insertion Sort
+- Quick Sort / Heap Sort / Merge Sort
+- Sort Colors (Dutch National Flag)
+- Largest Number
+- And more!
+
+**Time Complexity:** O(n log n) for efficient sorts  
+**Space Complexity:** O(1) to O(n)
+
+**Practice Exercises:**
+```bash
+python sorting/sorting_exercise.py
+```
+
+### 16. Math Algorithms
+
+**Location:** `math_algorithms/`
+
+Mathematical algorithms and number theory problems.
+
+**Key Implementations:**
+- Plus One / Add Binary
+- Factorial Trailing Zeroes
+- Power / Sqrt / Divide
+- Count Primes (Sieve of Eratosthenes)
+- Roman to Integer / Integer to Roman
+- And more!
+
+**Time Complexity:** O(log n) to O(n log log n)  
+**Space Complexity:** O(1) to O(n)
+
+**Practice Exercises:**
+```bash
+python math_algorithms/math_algorithms_exercise.py
+```
+
+### 17. Union-Find (Disjoint Set Union)
+
+**Location:** `union_find/`
+
+Union-Find tracks elements partitioned into disjoint sets with efficient operations.
+
+**Key Implementations:**
+- Path Compression and Union by Rank
+- Number of Connected Components
+- Redundant Connection
+- Accounts Merge
+- Number of Islands II
+- And more!
+
+**Time Complexity:** O(α(n)) amortized (inverse Ackermann)  
+**Space Complexity:** O(n)
+
+**Practice Exercises:**
+```bash
+python union_find/union_find_exercise.py
+```
+
+### 18. Recursion
+
+**Location:** `recursion/`
+
+Recursion solves problems by breaking them into smaller instances of the same problem.
+
+**Key Implementations:**
+- Factorial / Fibonacci / Power
+- Generate Parentheses
+- Subsets / Permutations
+- Combination Sum
+- N-Queens
+- And more!
+
+**Time Complexity:** Varies (O(2^n) for naive, O(n) with memoization)  
+**Space Complexity:** O(n) for call stack
+
+**Practice Exercises:**
+```bash
+python recursion/recursion_exercise.py
+```
+
+### 19. Tries (Prefix Trees)
+
+**Location:** `tries/`
+
+Trie is a tree-like data structure for efficient string storage and prefix searches.
+
+**Key Implementations:**
+- Basic Trie (insert, search, starts_with)
+- WordDictionary with wildcard support
+- Trie with count tracking
+- Autocomplete
+- And more!
+
+**Time Complexity:** O(L) where L is string length  
+**Space Complexity:** O(N * L) where N is number of strings
+
+**Run examples:**
+```bash
+python tries/tries.py
+```
+
+**Practice Exercises:**
+```bash
+python tries/tries_exercise.py
+```
+
 ## Practice Exercises
 
 Each module includes an exercise file with problems ranging from Easy to Hard difficulty:
@@ -285,19 +464,38 @@ Solutions are included but commented out - try solving problems on your own firs
 
 Recommended order to study these modules:
 
+### Foundations
 1. **Start with:** Binary Search (understand divide and conquer)
 2. **Then:** Two-Pointers (build intuition for linear scans)
 3. **Next:** Sliding Window (two-pointers + constraints)
 4. **Then:** Hash Maps (counting, grouping, prefix sums)
+
+### Data Structures
 5. **Next:** Stacks (valid parentheses, monotonic stack)
 6. **Then:** Linked Lists (pointer manipulation)
 7. **Then:** Trees (DFS/BFS patterns)
 8. **Then:** Heaps (top-k, streaming medians)
-9. **Then:** Graphs (BFS/DFS, topological sort)
-10. **Then:** Backtracking (combinatorial search)
-11. **Then:** Dynamic Programming (state transition thinking)
-12. **Practice:** Exercises in each module
-13. **Advanced:** Combine techniques (e.g., sliding window + hash map)
+9. **Then:** Tries (prefix trees, autocomplete)
+
+### Graphs & Advanced
+10. **Then:** Graphs (BFS/DFS, topological sort)
+11. **Then:** Union-Find (disjoint sets, connected components)
+
+### Algorithm Design Paradigms
+12. **Then:** Backtracking (combinatorial search)
+13. **Then:** Recursion (base cases, recursive thinking)
+14. **Then:** Dynamic Programming (state transition thinking)
+15. **Then:** Greedy Algorithms (locally optimal choices)
+16. **Then:** Divide and Conquer (recursive problem splitting)
+
+### Specialized Topics
+17. **Then:** Sorting Algorithms (comparison-based sorts)
+18. **Then:** Bit Manipulation (XOR, bit shifting, bitwise ops)
+19. **Then:** Math Algorithms (number theory, primes, GCD)
+
+### Practice & Mastery
+20. **Practice:** Exercises in each module
+21. **Advanced:** Combine techniques (e.g., sliding window + hash map)
 
 ## Common Interview Topics
 
