@@ -12,6 +12,24 @@ The `data_modelling/` folder contains Postgres SQL exercises for analytical mode
 ## Databricks (Data Engineering)
 The `databricks/` folder contains Databricks-focused exercises (Spark DataFrames, Delta Lake, Medallion architecture, streaming, optimization, and job orchestration).
 
+## Real-time Streaming
+The `streaming/` folder covers real-time data pipeline patterns with Kafka, Kinesis, and stream processing (producers, consumers, windowing, exactly-once semantics, and backpressure handling).
+
+## Infrastructure as Code (IaC)
+The `iac/` folder covers automating data engineering infrastructure with Terraform, including Snowflake/Databricks resources, cloud infrastructure, secret management, and CI/CD for infrastructure.
+
+## Advanced Data Quality
+The `data_quality_advanced/` folder covers enterprise-grade data quality frameworks with Great Expectations and Soda Core, including automated monitoring, anomaly detection, and incident response frameworks.
+
+## Production Deployment
+The `production_deployment/` folder covers best practices for deploying data pipelines to production, including CI/CD strategies, blue-green deployments, monitoring, incident management, and security hardening.
+
+## Modern Lakehouse Patterns
+The `lakehouse/` folder covers modern data lakehouse technologies (Delta Lake, Apache Iceberg, Apache Hudi) including ACID transactions, schema evolution, time travel, and performance optimization.
+
+## Specialized Topics
+The `specialized_topics/` folder covers advanced specialized areas including MLOps, Data APIs, messaging systems, geospatial data engineering, data mesh, graph databases, and real-time analytics.
+
 
 A comprehensive collection of Data Structures and Algorithms implementations with detailed explanations, examples, and practice exercises.
 
